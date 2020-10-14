@@ -1,0 +1,88 @@
+
+
+  body {
+    position: relative;
+    height: 100%;
+    background: #c5c5c5;
+    font-size: 0.7em;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  
+  .swiper-container {
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    font-family:"Roboto",sans-serif;
+    box-sizing: border-box;
+  }
+
+  .slide1{
+    background-image:url(tree1.png);
+  }
+
+  .slide2{
+    background-image: url(tree2.png);
+  }
+
+  .slide3{
+    background-image: url(tree3.png);
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 82%;
+  }
+
+
+  @media only screen and (max-width:1300px){
+
+    body{
+      font-size: 1em;
+    }
+
+    .swiper-container{
+      margin-top: 59px;
+      width:800px;
+      height: 800px;
+      position: absolute;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+  }
+
+
+
+
+  @media only screen and (max-width:768px){
+
+    .swiper-container {
+      margin-top: 50px;
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    
+
+  }
+
+
+  
